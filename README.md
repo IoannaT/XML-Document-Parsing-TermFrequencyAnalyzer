@@ -5,8 +5,9 @@ Main Class Converter.java
   Reads the doc-term.txt and converts it into a valid .xml document
 
 Main Class TermFrequency.java
-  Reads the term-vocab.txt document and tokenizes it.
-  For each document in the .xml file, calculates the frequency for each term and dislays it with a descending order.
+  Reads an .xml file whicη parse with DOM Parser. 
+  Also reads the term-vocab.txt document and tokenizes it order to compare its terms with the .xml ones.
+  For each document, calculates the frequency for each term and dislays it with a descending order.
   
   
 PS1: In order to run this project please make sure the reading docs are stored on C:/... drive.
